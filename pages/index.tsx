@@ -25,6 +25,7 @@ const Home: NextPage<IHomePageProps> = (props) => {
             content
           }
         </h1>
+      <img src="/base-path/static/test-image.jpg" width="286" height="176" />
       <div className={styles.grid}>
         <Link href="/others/products/slug-1">
           <a className={styles.card}>
