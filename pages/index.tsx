@@ -27,20 +27,14 @@ const Home: NextPage<IHomePageProps> = (props) => {
         </h1>
       <img src="/base-path/static/test-image.jpg" width="286" height="176" />
       <div className={styles.grid}>
-        <Link href="/others/products/slug-1">
-          <a className={styles.card}>
-            <h2>Go to Products - Slug 1 &rarr;</h2>
-          </a>
+        <Link href="/others/products/slug-1" className={styles.card}>
+          <h2>Go to Products - Slug 1 &rarr;</h2>
         </Link>
-        <Link href="/others/products/slug-2">
-          <a className={styles.card}>
-            <h2>Go to Products - Slug 2 &rarr;</h2>
-          </a>
+        <Link href="/others/products/slug-2" className={styles.card}>
+          <h2>Go to Products - Slug 2 &rarr;</h2>
         </Link>
-        <Link href="/others/products/slug-3">
-          <a className={styles.card}>
-            <h2>Go to Products - Slug 3 &rarr;</h2>
-          </a>
+        <Link href="/others/products/slug-3" className={styles.card}>
+          <h2>Go to Products - Slug 3 &rarr;</h2>
         </Link>
       </div>
       </main>

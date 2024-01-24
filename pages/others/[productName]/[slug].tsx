@@ -19,25 +19,17 @@ const OtherPagesSlugPage: NextPage<IOtherPagesSlugPageProps> = (props) => {
       </h1>
 
       <div className={styles.grid}>
-        <Link href="/">
-          <a className={styles.card}>
-            <h2>Go to Home &rarr;</h2>
-          </a>
+        <Link href="/" className={styles.card}>
+          <h2>Go to Home &rarr;</h2>
         </Link>
-        <Link href="/others">
-          <a className={styles.card}>
-            <h2>Catch All Route - Others &rarr;</h2>
-          </a>
+        <Link href="/others" className={styles.card}>
+          <h2>Catch All Route - Others &rarr;</h2>
         </Link>
-        <Link href="/new-page">
-          <a className={styles.card}>
-            <h2>Catch All Route - New Page &rarr;</h2>
-          </a>
+        <Link href="/new-page" className={styles.card}>
+          <h2>Catch All Route - New Page &rarr;</h2>
         </Link>
-        <Link href="/another-page">
-          <a className={styles.card}>
-            <h2>Catch All Route - Another Page &rarr;</h2>
-          </a>
+        <Link href="/another-page" className={styles.card}>
+          <h2>Catch All Route - Another Page &rarr;</h2>
         </Link>
       </div>
     </main>
