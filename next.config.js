@@ -4,8 +4,8 @@ const nextConfig = {
   basePath: '/base-path',
   assetPrefix: `/base-path/`,
   i18n: {
-    locales: ['en_US'],
-    defaultLocale: 'en_US'
+    locales: ['en-us', 'en-gb'],
+    defaultLocale: 'en-us'
   }
 }
 
